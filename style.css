@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    overflow: hidden;
+}
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/background2-nature.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 90%;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.698);
+    width: 400px;
+    height: 440px;
+    border-radius: 4%;
+    
+}
+.form-titulo{
+    color:white;
+    text-transform: uppercase;
+}
+
+.campos{
+    display: block;
+    width: 60%;
+    text-align: center;
+    text-transform: uppercase;
+    border-style: none;
+}
+
+.campos:focus{   
+    outline: none;
+}
+
+.form-campo-binario{
+    margin:10% 0 10% 0 ;
+    height:8%;
+    border-radius: 10px;
+}
+
+.form-campo-result{
+    border-radius: 2px;
+    height: 20%;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.form-botao{
+    padding: 8px;
+    bottom:10%;
+    width: 80%;
+    border-radius: 50px;
+    border:none;
+    text-transform: uppercase;
+    font-weight: bold;
+   background-color: white;
+   text-align: center;
+}
+
+.form-botao:hover{
+    background-color:rgb(175, 175, 175);
+    transform: scale(1.01);
+    transition: 200ms;
+    
+}
+
+.form-botao:active{
+    background-color:white;
+}
+
