@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
 * {
     margin: 0;
     overflow: hidden;
@@ -25,58 +27,63 @@
     width: 400px;
     height: 440px;
     border-radius: 4%;
-    
-}
-.form-titulo{
-    color:white;
-    text-transform: uppercase;
+
 }
 
-.campos{
+.form-titulo {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.campos {
     display: block;
     width: 60%;
     text-align: center;
     text-transform: uppercase;
     border-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
-.campos:focus{   
+.campos:focus {
     outline: none;
 }
 
-.form-campo-binario{
-    margin:10% 0 10% 0 ;
-    height:8%;
+.form-campo-binario {
+    margin: 10% 0 10% 0;
+    height: 8%;
     border-radius: 10px;
 }
 
-.form-campo-result{
+.form-campo-result {
     border-radius: 2px;
     height: 20%;
     margin-bottom: 40px;
     font-size: 28px;
 }
 
-.form-botao{
+.form-botao {
     padding: 8px;
-    bottom:10%;
+    bottom: 10%;
     width: 80%;
     border-radius: 50px;
-    border:none;
+    border: none;
     text-transform: uppercase;
-    font-weight: bold;
-   background-color: white;
-   text-align: center;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    text-align: center;
 }
 
-.form-botao:hover{
-    background-color:rgb(175, 175, 175);
+.form-botao:hover {
+    background-color: rgb(175, 175, 175);
     transform: scale(1.01);
     transition: 200ms;
-    
+
 }
 
-.form-botao:active{
-    background-color:white;
+.form-botao:active {
+    background-color: white;
 }
-
