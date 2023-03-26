@@ -7,12 +7,15 @@ botao.addEventListener("click",aoClickar)
 
 function aoClickar (event) {
     event.preventDefault()
+
+    //converte para decimal com base 2 
     let valorBinario = parseInt((numeroBinario.value), 2);
 
+    //verificar se valorBinario é um número
     if(!isNaN(valorBinario)){
         result.value = valorBinario;
     }else{
-        result.value = "atenção digite 1 ou 0";
+        result.value = "atenção digite 0 ou 1";
     }
     
     
