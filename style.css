@@ -47,20 +47,20 @@
 .form-campo-binario{
     margin:10% 0 10% 0 ;
     height:8%;
-    border-radius: 10px;
+    border-radius: 2px;
 }
 
 .form-campo-result{
     border-radius: 2px;
     height: 20%;
     margin-bottom: 40px;
-    font-size: 28px;
+    font-size: 18px;
 }
 
 .form-botao{
     padding: 8px;
     bottom:10%;
-    width: 80%;
+    width: 50%;
     border-radius: 50px;
     border:none;
     text-transform: uppercase;
